@@ -9,13 +9,10 @@
      - return all vehicles data
   - /api/create_vehicle [POST]
      - create new vehicle entry
-     - body: [CreateVehicleRequest](api/handlers/types.go)
+     - body: [VehicleJSON](api/handlers/types.go)
   - /api/delete_vehicle [DELETE]
      - remove vehicle entry
      - Query Param: "oid"
-- Basic Auth used for API:
-  - Development username: "digihey"
-  - Development password: "digihey"
 - The port on which API is exposed is "8080"
 
 ## Local run:
