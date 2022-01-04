@@ -16,5 +16,4 @@
 - The port on which API is exposed is "8080"
 
 ## Local run:
-- docker-compose build
-- docker-compose -f .\docker-compose.yaml up
+- docker-compose up
